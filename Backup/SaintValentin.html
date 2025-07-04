@@ -1,0 +1,156 @@
+
+<!-- saved from url=(0059)file:///C:/Users/jehanlutomisa/Downloads/SaintValentin.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+    .title_style {
+        margin:0;
+        margin-left: calc(336px / -2);
+        margin-top: calc(38px / -2);
+        padding:0;
+        font-size:34px;
+        font-family:sans-serif;
+        font-weight:bold;
+        text-align:center;
+        justify-content:center;
+        display:flex;
+        flex-wrap:wrap;
+        width:337px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        }
+
+    .size-block {
+        overflow: hidden;
+        overflow-clip-margin: content-box;
+        width: 100%;
+        height: 100%;
+        transform-origin: center;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #animate {
+        animation: 4.75s cubic-bezier(0.23,-0.34,0,1) infinite normal none running animate;
+    }
+
+    #animate2 {
+        animation: 4.75s ease-in-out infinite normal none running animate2;
+    }
+
+    #resizeAnimation2 {
+        animation: 5s ease-in-out infinite normal none running resizeAnimation2;
+    }
+
+    #resizeAnimation1 {
+        animation: 5s ease-in-out infinite normal none running resizeAnimation1;
+    }
+    
+    @keyframes animate {
+        from {
+            color:rgba(0,0,0,0);
+            top:50%;
+        }
+
+        2% {
+            filter:blur(0.64px);
+        }
+
+        6% {
+            filter:blur(0px);
+            transform:rotate(5deg);
+        }
+
+        12% {
+            color:rgba(0,0,0,1);
+        }
+
+        16% {
+            filter:blur(0.8px);
+        }
+
+        26% {
+            filter:blur(0);
+            transform:rotate(0deg);
+        }
+
+        to {
+            top:85px;
+        }
+    }
+
+    @keyframes animate2 {
+        from {
+            stroke:rgba(0,0,0,0);
+            scale:25%;
+        }
+
+        50% {
+            stroke:rgba(0,0,0,1);
+            scale:100%;
+        }
+
+        to {
+            scale:75%;
+        }
+    }
+
+    @keyframes resizeAnimation1 {
+        from {
+            width:100%;
+            height:100%;
+            top:0px;
+            left:0px;
+        }
+
+        to {
+            width:330px;
+            height:330px;
+            top:calc(50% - 330px / 2);
+            left:calc(50% - 330px / 2);
+        }
+    }
+
+    @keyframes resizeAnimation2 {
+        from {
+            width:100%;
+            height:100%;
+            top:0px;
+            left:0px;
+            transform:rotate(0deg);
+        }
+
+        to {
+            width:330px;
+            height:330px;
+            top:calc(50% - 330px / 2);
+            left:calc(50% - 330px / 2);
+            transform:rotate(360deg)
+        }
+    }
+</style>
+</head><body style="
+    overflow: hidden;
+">
+    
+<span class="title_style" style="
+    visibility: hidden;
+    --width: 40%;
+    width: var(--width);
+">iohsphgfrvokzsz</span><div class="size-block" id="resizeAnimation1" style="
+    background-color: darkred;
+    outline-color: darkred;
+    outline-style: solid;
+    outline-width: 4px;
+"><div id="resizeAnimation2" class="size-block" style="
+    background-color: rgb(255,255,255);
+"></div><svg style="position: absolute;width: 210px;height: 210px;top: calc(50% - calc(210px /2));left: calc(50% - calc(210px /2));scale: 150%;z-index: 1;">
+    <path style="position: relative;transform-origin: 100px 100px;" d="M 105 55 C 105 55 105 5 55 5 C 55 5 5 5 5 55 C 5 55 5 155 105 205 C 105 205 205 155 205 55 C 205 55 205 5 155 5 C 155 5 105 5 105 55" stroke="black" fill="transparent" stroke-width="3px" id="animate2"></path>
+</svg>
+    </div><span class="title_style" id="animate" style="
+">Happy Saint-valentin</span><div style="width:10px;height:10px;background-color:turquoise;position:absolute;top: calc(50% - calc(10px / 2));left: calc(50% - calc(10px / 2));">
+</div>
+</body></html>
